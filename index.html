@@ -11,7 +11,29 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <section class="container my-5">
+        <!-- Input Box -->
+        <div class="d-flex mx-auto w-50">
+            <input type="text" class="form-control me-2" placeholder="Search by country name" id="searchInput">
+            <button class="btn btn-dark" id="search-btn">Search</button>
+        </div>
+    </section>
+
+    <section class="container">
+        <!-- Country Details -->
+        <div class="row" id="country-details"></div>
+        <hr>
+    </section>
+
+    <section class="container">
+        <!-- error field -->
+        <div id="error"></div>
+
+        <!-- Countries -->
+        <div id="country-container" class="row">
+            
+        </div>
+    </section>
     <!-- custom js -->
     <script src="js/main.js"></script>
 </body>
